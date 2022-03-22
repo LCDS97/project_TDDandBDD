@@ -10,4 +10,4 @@ class CarCategory extends Base {
     }
 }
 
-module.exports = carCategory
+module.exports = CarCategory
