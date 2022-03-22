@@ -2,7 +2,7 @@
   "name": "tddandbdd",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./seed",
   "directories": {
     "test": "test"
   },
@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/LCDS97/project_TDDandBDD/issues"
   },
-  "homepage": "https://github.com/LCDS97/project_TDDandBDD#readme"
+  "homepage": "https://github.com/LCDS97/project_TDDandBDD#readme",
+  "devDependencies": {
+    "@faker-js/faker": "^6.0.0"
+  }
 }
