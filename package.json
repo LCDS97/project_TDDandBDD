@@ -7,8 +7,10 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "seed": "node ./seed"
+    "seed": "node ./seed",
+    "test": "npx mocha -w --parallel \"./{,!(node_modules)/**/}*.test.js\"",
+    "test:cov": "npx nyc npx mocha \"./{,!(node_modules)/**/}*.test.js\"",
+    "test:cov2": "npx nyc mocha --no-parallel \"./{,!(node_modules)/**/}*.test.js\" --exit --check-leaks"
   },
   "repository": {
     "type": "git",
