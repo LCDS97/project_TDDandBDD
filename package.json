@@ -22,6 +22,9 @@
   },
   "homepage": "https://github.com/LCDS97/project_TDDandBDD#readme",
   "devDependencies": {
-    "@faker-js/faker": "^6.0.0"
+    "@faker-js/faker": "^6.0.0",
+    "mocha": "^8.4.0",
+    "nyc": "^15.1.0",
+    "sinon": "^9.2.4"
   }
 }
